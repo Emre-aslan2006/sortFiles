@@ -1,56 +1,49 @@
 # 🧠 Smart File Organizer v6
 
-A modern Python desktop app that organizes, renames, backs up, and auto-schedules your messy files — now with dark mode, live logs, AI-style renaming patterns, and ZIP export.
-
-![Smart File Organizer](https://user-images.githubusercontent.com/00000000/organizer-screenshot.png) <!-- Replace with your actual screenshot path -->
+A professional-grade Python desktop utility built with `tkinter`, designed to **organize**, **clean**, **rename**, and **backup** your files with ease. This version features smart renaming, dark mode toggle, live logs, and ZIP export.
 
 ---
 
-## ⚡ Features
+## 🚀 Features
 
-✅ **Smart File Sorting**  
-Sorts files into folders like `Images`, `Documents`, `Videos`, `Audio`, `Code`, and more.
-
-✅ **Automatic Renaming**  
-Renames files using timestamps and category-aware patterns.
-
-✅ **Live Logs**  
-View detailed file actions (moved, renamed, skipped) in real time.
-
-✅ **Preview Mode**  
-See what changes will be made before committing.
-
-✅ **Backup + Restore**  
-Safely back up and restore files before/after organizing.
-
-✅ **Duplicate Detector**  
-Finds exact duplicate files using MD5 hashing.
-
-✅ **Auto-Scheduler**  
-Runs every 10 minutes in the background using `schedule`.
-
-✅ **Export as ZIP**  
-Exports all organized files into a single ZIP archive.
-
-✅ **Dark Mode**  
-Toggle between light/dark modes for the GUI.
+| Feature              | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| 📂 Add Files         | Select multiple files for organization                                      |
+| 🧹 Clear Queue       | Remove all selected files from the queue                                    |
+| ✅ Organize Files    | Move and rename files into category folders by type and date                |
+| 🔍 Preview Changes   | See where files will go before confirming                                   |
+| ♻️ Restore Backup    | Undo file changes and revert to original files                              |
+| 🧬 Find Duplicates   | Detect duplicate files using MD5 hashing                                    |
+| ⏱️ Auto-Schedule     | Automatically organize files every 10 minutes                               |
+| 🧳 Export ZIP        | Export the organized folder as a `.zip` archive                             |
+| 🌙 Toggle Dark Mode  | Switch between light and dark GUI themes                                    |
+| 📜 Live Logs         | See status updates and actions taken in real-time                          |
 
 ---
 
-## 🚀 Tech Stack
+## 🛠️ Tech Stack
 
-- 🐍 Python 3.x
-- 🖼️ Tkinter GUI (desktop-native)
-- 🧠 `hashlib`, `schedule`, `shutil`, `zipfile`, `threading`, `datetime`
-- 📦 `poetry` or `requirements.txt` for dependency management
+- Python 3
+- `tkinter` GUI
+- `shutil`, `hashlib`, `datetime`, `schedule`
+- Cross-platform (macOS, Windows, Linux via Python)
 
 ---
 
-## 🧪 How to Run
+## 📸 Screenshots
 
-### 🔧 Clone & Run Locally
+### ☀️ Light Mode
+![Light Mode](screenshots/light_mode.png)
 
+### 🌑 Dark Mode
+![Dark Mode](screenshots/dark_mode.png)
+
+---
+
+## 💾 Installation
+
+1. **Clone the repo**
 ```bash
 git clone https://github.com/Emre-aslan2006/sortFiles.git
 cd sortFiles
-python3 main.py
+
