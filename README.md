@@ -33,7 +33,8 @@ A professional-grade Python desktop utility built with `tkinter`, designed to **
 ## 📸 Screenshots
 
 ### ☀️ Light Mode
-![Light Mode]<img width="741" alt="Screenshot%202025-05-29%20at%2001 59 29" src="https://github.com/user-attachments/assets/1fd1ee12-ea35-4c02-925b-6223e03944a6" />
+![Light Mode]<img width="701" alt="Screenshot%202025-05-29%20at%2001 59 06" src="https://github.com/user-attachments/assets/19fbd82b-4e2d-4c8b-b7b6-3385ab9089b4" />
+
 
 
 ### 🌑 Dark Mode
